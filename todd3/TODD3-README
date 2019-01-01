@@ -1,0 +1,4 @@
+The `.emacs.d' files actually found in a directory named something else; in this case `todd3'. This allows
+easy switching between Emacs configurations by simply symlinking `todd3' to to '~/.emacs.d'. Other configurations are 
+found sibling directories of 'todd3'. Switching Emacs configurations is then easy by just symlinking another configuration
+over target '.emacs.d' (this can be somewhat automated by using GNU stow as well).
